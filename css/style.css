@@ -7,6 +7,10 @@ body {
     background-color: #f7f1e3;
     font-family: "Work Sans", serif;
 }
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* banner design */
 .banner {
@@ -78,5 +82,61 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
    
+ }
+
+ /* item design */
+ .item {
+    margin: 50px 0;
+ }
+ .item .item-subtitle {
+    margin: 16px 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #101010;
+    opacity: .6;
+    text-align: center;
+ }
+ .item .item-title {
+    margin: 16px 0;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+ }
+ .item .item-box {
+    background-color: #fff;
+    padding: 18px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+ }
+ .item-box .card {
+    flex-basis: 32%;
+    position: relative;
+ }
+ .item-box .card img {
+    width: 100%;
+ }
+ .card .caption small {
+    display: block;
+    margin: 14px 0 0 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+ }
+ .card .card-title {
+    margin: 14px 0;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+ }
+ .card .item-desc {
+    color: #101010;
+    opacity: .7;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
  }
