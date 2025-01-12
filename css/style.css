@@ -87,7 +87,7 @@ body {
  }
 
  /* item design */
- /* .item {
+ .item {
     margin: 50px 0;
  }
  .item .item-subtitle {
@@ -139,4 +139,4 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
- } */
+ }
